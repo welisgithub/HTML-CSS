@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+body {
+  margin:0;
+}
+
+section {
+  width: 100%
+  float:left;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  heigth: 0px;
+}
+
+header div.logo {
+  margin-top: 2%;
+  padding: 5;
+  float: left;
+  text-align: left;
+}
+
+header nav ul {
+  margin: 0;
+  margin-top: -5px;
+  padding: 5;
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header nav ul li {
+  margin: 0;
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+header nav ul li:hover {
+  background-color: #4f4f4f;
+}
+main section.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/images2.jpeg);
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+main section.banner h1 {
+  text-align: center;
+  padding-top: 140px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #333;
+
+}
+
+main section.banner h2 {
+  text-align: center;
+  margin-top: 15px;
+  color: #fff;
+  text-shadow: 2px 2px 5px #333;
+}
+
+
+main section.Produtos {
+  background-color: #333;
+}
+
+main section.Produtos h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main section.Produtos .container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main section.Produtos .container .image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25vh;
+}
+
+main section.Produtos .container #img1 {
+  background-image: url(../img/images.jpeg);
+}
+
+main section.Produtos .container #img2 {
+  background-image: url(../img/images3.jpeg);
+}
+
+main section.Produtos .container #img3 {
+  background-image: url(../img/images4.jpeg);
+}
+
+footer {
+  float: left;
+  text-align: center;
+  width: 100%;
+  background-color: #ddd;
+  padding: 10px;
+}
