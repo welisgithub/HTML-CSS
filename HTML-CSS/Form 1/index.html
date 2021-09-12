@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>My First Form</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <div>
+      <h1 id="title">Registration Form</h1>
+      <p id="subtitle">Complete your information</p>
+      <br>
+    </div>
+
+    <form>
+
+      <fieldset class="group">
+        <div class="field">
+          <label for="name"><strong>Name</strong></label>
+          <input type="text" name="name" id="N" required>
+        </div>
+
+        <div class="field">
+          <label for="last name"><strong>Last Name</strong></label>
+          <input type="text" name="last name" id="LN" required>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div class="field">
+        <label><strong>Phone</strong></label>
+        <input type="text" name="Phone" id="Phone" required>
+      </div>
+
+      <div class="field" >
+        <label><strong>Gender</strong></label>
+        <label>
+          <input type="radio" name="gender" value="male" required>Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" required>Female
+        </label>
+      </div>
+
+      <div class="field">
+        <label for="OA"><strong>Ocupation Area</strong></label>
+        <select id="OA">
+          <option>Front-End</option>
+          <option>Back-End</option>
+          <option>FullStack</option>
+          <option>Mobile</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label><strong>Your Level</strong></label>
+        <label>
+          <input type="radio" name="your level" value="junior">Junior
+        </label>
+        <label>
+          <input type="radio" name="your level" value="planary">Planary
+        </label>
+        <label>
+          <input type="radio" name="your level" value="senior">Senior
+        </label>
+      </div>
+
+      <fieldset class="group">
+        <div id="tecs">
+          <label><strong>Select Yours Tecnologies</strong></label><br>
+          <input type="checkbox" id="tec1" name="tecnology_1" value="HTML">
+          <label for="tec1">HTML</label>
+          <input type="checkbox" id="tec2" name="tecnology_2" value="CSS">
+          <label for="tec2">CSS</label>
+          <input type="checkbox" id="tec3" name="tecnology_3" value="JavaScript">
+          <label for="tec3">JavaScript</label>
+          <input type="checkbox" id="tec4" name="tecnology_4" value="Python">
+          <label for="tec4">Python</label>
+          <input type="checkbox" id="tec5" name="tecnology_5" value="React">
+          <label for="tec5">React</label><br>
+          <input type="checkbox" id="tec6" name="tecnology_6" value="Java">
+          <label for="tec6">Java</label>
+          <input type="checkbox" id="tec7" name="tecnology_7" value="PHP">
+          <label for="tec7">PHP</label>
+          <input type="checkbox" id="tec8" name="tecnology_8" value="MySQL">
+          <label for="tec8">MySQL</label>
+          <input type="checkbox" id="tec9" name="tecnology_9" value="TypeScript">
+          <label for="tec9">TypeScript</label>
+          <input type="checkbox" id="tec10" name="tecnology_10" value="C">
+          <label for="tec10">C</label><br>
+          <input type="checkbox" id="tec11" name="tecnology_11" value="C++">
+          <label for="tec11">C++</label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <br>
+        <label>About You</label>
+        <textarea row="6" style="width: 26em" id="AY" name="about you"></textarea>
+      </div>
+
+      <button class="button" type="submit" name="button1">Send</button>
+    </form>
+    <div>
+    </div>
+  </body>
+</html>
